@@ -10,9 +10,16 @@
       "url": "http://localhost:3000"
     }
   ],
+  "tags": [
+    {
+      "name": "Endpoints",
+      "description": "Todos los endpoints de la API"
+    }
+  ],
   "paths": {
     "/api/users": {
       "get": {
+        "tags": ["Endpoints"],
         "summary": "Obtiene la lista de usuarios",
         "description": "Devuelve un array de usuarios en formato JSON",
         "responses": {
@@ -24,6 +31,7 @@
     },
     "/api/products": {
       "get": {
+        "tags": ["Endpoints"],
         "summary": "Obtiene la lista de productos",
         "description": "Devuelve un array de productos en formato JSON",
         "responses": {
@@ -35,6 +43,7 @@
     },
     "/api/product": {
       "post": {
+        "tags": ["Endpoints"],
         "summary": "Agrega un nuevo producto",
         "description": "Permite crear un producto enviando nombre y precio",
         "requestBody": {
