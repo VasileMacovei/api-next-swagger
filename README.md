@@ -12,7 +12,7 @@ Este proyecto es una API sencilla construida con **Next.js** que proporciona tre
 
 ```bash
    git clone https://github.com/VasileMacovei/api-next-swagger.git
-   cd api-next-swagger/
+   cd api-next-swagger
 ```
 
 2. **Instalar dependencias:**
