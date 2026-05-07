@@ -1,0 +1,75 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API con Next.js",
+    "version": "1.0.0",
+    "description": "Documentación Swagger de la API desarrollada con Next.js"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/api/users": {
+      "get": {
+        "summary": "Obtiene la lista de usuarios",
+        "description": "Devuelve un array de usuarios en formato JSON",
+        "responses": {
+          "200": {
+            "description": "Usuarios obtenidos correctamente"
+          }
+        }
+      }
+    },
+    "/api/products": {
+      "get": {
+        "summary": "Obtiene la lista de productos",
+        "description": "Devuelve un array de productos en formato JSON",
+        "responses": {
+          "200": {
+            "description": "Productos obtenidos correctamente"
+          }
+        }
+      }
+    },
+    "/api/product": {
+      "post": {
+        "summary": "Agrega un nuevo producto",
+        "description": "Permite crear un producto enviando nombre y precio",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "example": "Teclado"
+                  },
+                  "price": {
+                    "type": "number",
+                    "example": 30.99
+                  }
+                },
+                "required": ["name", "price"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Producto agregado correctamente"
+          },
+          "400": {
+            "description": "Datos incompletos"
+          },
+          "500": {
+            "description": "Error del servidor"
+          }
+        }
+      }
+    }
+  }
+}

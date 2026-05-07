@@ -9,15 +9,17 @@ Este proyecto es una API sencilla construida con **Next.js** que proporciona tre
 ## 📦 Instalación
 
 1. **Clonar el repositorio:**
-   ```bash
+
+```bash
    git clone https://github.com/rpiealb297/mi-app-next.git
    cd nextjs-api
-   ```
+```
 
 2. **Instalar dependencias:**
-   ```bash
+
+```bash
    npm install
-   ```
+```
 
 ## 🚀 Ejecución en local
 
@@ -33,7 +35,21 @@ Esto iniciará un servidor en `http://localhost:3000`.
 
 - **Usuarios:** `http://localhost:3000/api/users`
 - **Productos:** `http://localhost:3000/api/products`
-- **Subir producto:** `http://localhost:3000/api/product` (requiere JSON con `name` y `price`: {"name":"producto1", "price":5.5})
+- **Subir producto:** `http://localhost:3000/api/product` (requiere JSON con `name` y `price`: `{"name":"producto1", "price":5.5}`)
+
+## 📚 Documentación con Swagger
+
+Este proyecto incluye documentación de la API mediante Swagger.
+
+Para acceder a la documentación interactiva, ejecuta el proyecto y abre en el navegador:
+
+`http://localhost:3000/api/docs`
+
+Desde esta interfaz podrás:
+
+- Ver todos los endpoints disponibles
+- Consultar parámetros y respuestas
+- Probar las peticiones directamente desde el navegador
 
 ## 🌍 Despliegue
 
