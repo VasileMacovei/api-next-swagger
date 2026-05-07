@@ -11,7 +11,7 @@ Este proyecto es una API sencilla construida con **Next.js** que proporciona tre
 1. **Clonar el repositorio:**
 
 ```bash
-   git clone https://github.com/rpiealb297/mi-app-next.git
+   git clone https://github.com/VasileMacovei/api-next-swagger.git
    cd nextjs-api
 ```
 
