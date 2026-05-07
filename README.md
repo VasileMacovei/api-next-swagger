@@ -11,14 +11,14 @@ Este proyecto es una API sencilla construida con **Next.js** que proporciona tre
 1. **Clonar el repositorio:**
 
 ```bash
-   git clone https://github.com/VasileMacovei/api-next-swagger.git
-   cd api-next-swagger
+git clone https://github.com/VasileMacovei/api-next-swagger.git
+cd api-next-swagger
 ```
 
 2. **Instalar dependencias:**
 
 ```bash
-   npm install
+npm install
 ```
 
 ## 🚀 Ejecución en local
